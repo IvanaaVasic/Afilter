@@ -165,3 +165,70 @@ nav a {
 .icon-ajust {
   margin: 0px 30px 0px 50px;
 }
+.footer {
+  height: 280px;
+  background-color: #232323;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.footer-left-part {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 20px;
+}
+.footer-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #a5a5a5;
+  padding-bottom: 50px;
+}
+.info {
+  display: flex;
+  flex-direction: row;
+}
+.info-style {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #a5a5a5;
+  font-size: 14px;
+  margin-right: 10px;
+  border-right: 1px solid #a5a5a5;
+  padding-right: 10px;
+  text-decoration: none;
+}
+.info-style-last {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #a5a5a5;
+  font-size: 14px;
+  margin-right: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+}
+.footer-right-part {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+.product-footer {
+  display: flex;
+  flex-direction: column;
+}
+.pr {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  color: white;
+  margin-bottom: 10px;
+}
+.pr-1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #a5a5a5;
+  margin: 4px;
+}
+.pr-2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #a5a5a5;
+  margin-top: 30px;
+}

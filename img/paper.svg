@@ -1,26 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="1000px" height="1000px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
-<g>
-	<path fill="#54585F" d="M353,352.777V685.41c0,3.531,2.867,6.398,6.398,6.398h243.079c3.531,0,6.395-2.867,6.395-6.398V416.746
-		c0-0.141-0.066-0.262-0.082-0.402c-0.031-0.563-0.141-1.114-0.324-1.645c-0.07-0.207-0.121-0.402-0.211-0.601
-		c-0.313-0.696-0.742-1.332-1.281-1.875l-63.969-63.969c-0.543-0.539-1.18-0.969-1.879-1.277c-0.191-0.082-0.387-0.153-0.59-0.211
-		c-0.535-0.188-1.09-0.297-1.656-0.332c-0.109,0.015-0.234-0.051-0.367-0.051H359.398C355.867,346.383,353,349.242,353,352.777
-		L353,352.777z M587.035,410.348h-42.129v-42.129L587.035,410.348z M365.792,359.176h166.321v57.57c0,3.531,2.863,6.395,6.395,6.395
-		h57.57v255.875H365.792V359.176z M365.792,359.176"/>
-	<path fill="#54585F" d="M621.668,640.633v12.793h19.188c3.535,0,6.398-2.864,6.398-6.395V314.398c0-3.535-2.863-6.398-6.398-6.398
-		H397.777c-3.531,0-6.395,2.863-6.395,6.398v19.188h12.793v-12.793h230.286v319.84H621.668z M621.668,640.633"/>
-	<rect x="404.175" y="435.938" fill="#54585F" width="153.522" height="12.793"/>
-	<rect x="404.175" y="397.555" fill="#54585F" width="51.176" height="12.793"/>
-	<rect x="404.175" y="474.316" fill="#54585F" width="102.353" height="12.793"/>
-	<rect x="519.316" y="474.316" fill="#54585F" width="38.383" height="12.793"/>
-	<rect x="404.175" y="512.695" fill="#54585F" width="153.522" height="12.797"/>
-	<rect x="404.175" y="589.457" fill="#54585F" width="153.522" height="12.797"/>
-	<rect x="461.746" y="551.078" fill="#54585F" width="95.953" height="12.793"/>
-	<rect x="404.175" y="551.078" fill="#54585F" width="44.777" height="12.793"/>
-	<rect x="404.175" y="627.84" fill="#54585F" width="25.586" height="12.793"/>
-	<rect x="442.554" y="627.84" fill="#54585F" width="115.145" height="12.793"/>
-</g>
+<svg xmlns="http://www.w3.org/2000/svg" width="36.057" height="47.031" viewBox="0 0 36.057 47.031">
+  <g id="paper" transform="translate(-353 -308)">
+    <path id="Path_5" data-name="Path 5" d="M353,347.167v40.76a.784.784,0,0,0,.784.784H383.57a.784.784,0,0,0,.784-.784V355.005a.436.436,0,0,0-.01-.049.742.742,0,0,0-.04-.2.768.768,0,0,0-.026-.074.779.779,0,0,0-.157-.23l-7.839-7.839a.762.762,0,0,0-.23-.156.6.6,0,0,0-.072-.026.75.75,0,0,0-.2-.041c-.013,0-.029-.006-.045-.006H353.784a.784.784,0,0,0-.784.783Zm28.678,7.055h-5.162v-5.162Zm-27.111-6.27h20.381v7.054a.784.784,0,0,0,.784.784h7.054v31.354H354.568Zm0,0" transform="translate(0 -33.68)" fill="#54585f"/>
+    <path id="Path_6" data-name="Path 6" d="M419.6,348.76v1.568h2.351a.784.784,0,0,0,.784-.784v-40.76a.784.784,0,0,0-.784-.784H392.166a.784.784,0,0,0-.784.784v2.351h1.568v-1.568h28.219V348.76Zm0,0" transform="translate(-33.679 0)" fill="#54585f"/>
+    <rect id="Rectangle_8" data-name="Rectangle 8" width="18.812" height="1.568" transform="translate(359.271 323.677)" fill="#54585f"/>
+    <rect id="Rectangle_9" data-name="Rectangle 9" width="6.271" height="1.568" transform="translate(359.271 318.974)" fill="#54585f"/>
+    <rect id="Rectangle_10" data-name="Rectangle 10" width="12.542" height="1.568" transform="translate(359.271 328.38)" fill="#54585f"/>
+    <rect id="Rectangle_11" data-name="Rectangle 11" width="4.703" height="1.568" transform="translate(373.38 328.38)" fill="#54585f"/>
+    <rect id="Rectangle_12" data-name="Rectangle 12" width="18.812" height="1.568" transform="translate(359.271 333.083)" fill="#54585f"/>
+    <rect id="Rectangle_13" data-name="Rectangle 13" width="18.812" height="1.568" transform="translate(359.271 342.489)" fill="#54585f"/>
+    <rect id="Rectangle_14" data-name="Rectangle 14" width="11.758" height="1.568" transform="translate(366.326 337.786)" fill="#54585f"/>
+    <rect id="Rectangle_15" data-name="Rectangle 15" width="5.487" height="1.568" transform="translate(359.271 337.786)" fill="#54585f"/>
+    <rect id="Rectangle_16" data-name="Rectangle 16" width="3.135" height="1.568" transform="translate(359.271 347.192)" fill="#54585f"/>
+    <rect id="Rectangle_17" data-name="Rectangle 17" width="14.11" height="1.568" transform="translate(363.974 347.192)" fill="#54585f"/>
+  </g>
 </svg>

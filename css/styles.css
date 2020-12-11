@@ -458,6 +458,7 @@ nav a {
   }
   .footer {
     flex-direction: column;
+    padding: 0px 40px 20px 40px;
   }
   .info {
     flex-direction: column;
@@ -470,11 +471,11 @@ nav a {
     margin: 10px 0px 0px 0px;
   }
   .footer-left-part {
-    padding-left: 20px;
+    padding-left: 0px;
   }
   .footer-right-part {
     flex-direction: row;
-    padding-left: 20px;
+    padding-left: 0px;
     justify-content: space-between;
   }
   .copyright-last {
@@ -484,7 +485,7 @@ nav a {
     font-size: 14px;
   }
   .product-footer {
-    padding-right: 20px;
+    padding-right: 0px;
   }
   .copyright-mobile {
     display: flex;

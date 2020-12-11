@@ -388,6 +388,7 @@ nav a {
     position: relative;
     left: 0px;
     padding-top: 60px;
+    font-weight: bold;
   }
   .render-img {
     height: auto;
@@ -448,7 +449,8 @@ nav a {
     padding-right: 30px;
   }
   .footer-icon {
-    height: 50px;
+    height: auto;
+    width: 100px;
   }
   .footer-title {
     display: none;

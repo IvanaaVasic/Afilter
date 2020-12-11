@@ -355,7 +355,7 @@ nav a {
     background-color: #0082c6;
     overflow-y: hidden;
     transition: 0.5s;
-    opacity: 0.9d;
+    opacity: 0.9;
   }
   .overlay .closebtn {
     position: absolute;
@@ -428,7 +428,7 @@ nav a {
     height: auto;
   }
   .worker {
-    padding-top: 20px;
+    padding-top: 40px;
   }
   .box-1 {
     padding: 20px;

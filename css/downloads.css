@@ -14,6 +14,7 @@
 .catalogue-title-button-holder {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 .title-button-catalogue {
   display: flex;
@@ -25,6 +26,7 @@
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   color: #777777;
+  margin-top: 0px;
 }
 .downloads-content-holder {
   display: flex;
@@ -86,6 +88,7 @@
   }
   .title-button-catalogue {
     padding-left: 15px;
+    align-items: baseline;
   }
   .downloads-content-holder {
     flex-direction: column;

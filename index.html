@@ -17,18 +17,41 @@
     <div class="main-container">
       <div class="first-part">
         <div class="header">
-          <img src="img/logo_retina.png" class="logo-main" />
+          <a href="index.html"
+            ><img src="img/logo_retina.png" class="logo-main"
+          /></a>
           <div class="menu">
             <nav class="navigation">
               <ul>
-                <li><a href="index.html" class="box-style">HOME</a></li>
-                <li><a href="">GRP FILTERS</a></li>
-                <li><a href="">GALLERY</a></li>
+                <li>
+                  <a href="index.html" class="box-style">HOME</a>
+                </li>
+                <li><a href="" onclick="myFunction()">GRP FILTERS</a></li>
+                <li><a href="" onclick="myFunction()">GALLERY</a></li>
                 <li><a href="downloads.html">DOWNLOADS</a></li>
-                <li><a href="">ABOUT US</a></li>
-                <li><a href="">CONTACT</a></li>
+                <li><a href="" onclick="myFunction()">ABOUT US</a></li>
+                <li><a href="" onclick="myFunction()">CONTACT</a></li>
               </ul>
             </nav>
+          </div>
+          <span
+            class="nav-bar"
+            style="font-size: 30px; cursor: pointer"
+            onclick="openNav()"
+            >&#9776;</span
+          >
+          <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+              >&times;</a
+            >
+            <div class="overlay-content">
+              <a href="index.html">Home</a>
+              <a href="" onclick="myFunction()">GRP Filters</a>
+              <a href="" onclick="myFunction()">Gallery</a>
+              <a href="downloads.html">Downloads</a>
+              <a href="" onclick="myFunction()">About us</a>
+              <a href="" onclick="myFunction()">Contact</a>
+            </div>
           </div>
         </div>
         <div class="title-image">
@@ -66,7 +89,7 @@
               </p>
             </div>
           </div>
-          <div class="first-holder">
+          <div class="first-holder last-in-box">
             <img src="img/automation.svg" class="icon-ajust" />
             <div class="second-box-title-text-holder">
               <p class="box-title">Manufacture</p>
@@ -95,7 +118,7 @@
               </p>
             </div>
           </div>
-          <div class="first-holder">
+          <div class="first-holder last-in-box">
             <img src="img/warranty.svg" class="icon-ajust" />
             <div class="second-box-title-text-holder">
               <p class="box-title">Aftersales</p>
@@ -132,11 +155,16 @@
             <p class="pr">LEGAL</p>
             <p class="pr-1">Terms of Use</p>
           </div>
-          <div class="product-footer">
+          <div class="product-footer copyright-last">
             <p class="pr-2">Copyright © Afilter 2020</p>
           </div>
         </div>
       </div>
+      <div class="copyright-mobile">
+        <p class="pr-3">Copyright © Afilter 2020</p>
+      </div>
     </div>
+    <script src="menu.js"></script>
+    <script src="alert.js"></script>
   </body>
 </html>

@@ -33,4 +33,68 @@
 }
 .catalogue-logo {
   border: 1px solid black;
+  height: 286px;
+}
+.certificate-logo {
+  height: 284px;
+}
+.downl-icon {
+  height: 30px;
+}
+@media only screen and (max-width: 1500px) and (min-width: 835px) {
+  .download-title {
+    font-size: 28px;
+    padding: 64px 0px 40px 104px;
+  }
+  .catalogue-logo {
+    height: 230px;
+  }
+  .certificate-logo {
+    height: 230px;
+  }
+  .title-catalogue {
+    font-size: 12px;
+  }
+  .downl-icon {
+    height: 24px;
+  }
+  .title-button-catalogue {
+    padding-left: 30px;
+  }
+  .first-part-downloads {
+    height: 580px;
+  }
+}
+@media only screen and (max-width: 835px) {
+  .downloads-content-holder {
+    flex-direction: column;
+  }
+  .download-title {
+    font-size: 36px;
+    padding: 50px 0px 50px 0px;
+  }
+  .first-part-downloads {
+    height: 725px;
+    /* justify-content: center; */
+    align-items: center;
+  }
+  .catalogue-logo {
+    height: 150px;
+  }
+  .certificate-logo {
+    height: 150px;
+  }
+  .title-button-catalogue {
+    padding-left: 15px;
+  }
+  .downloads-content-holder {
+    flex-direction: column;
+    padding-left: 30px;
+  }
+  .catalogue-title-button-holder {
+    padding-bottom: 40px;
+  }
+  .first-part-downloads {
+    height: auto;
+  }
 }

@@ -18,20 +18,41 @@
     <div class="main-container">
       <div class="first-part-downloads">
         <div class="header">
-          <img src="img/logo_retina.png" class="logo-main" />
+          <a href="index.html"
+            ><img src="img/logo_retina.png" class="logo-main"
+          /></a>
           <div class="menu">
             <nav class="navigation">
               <ul>
                 <li><a href="index.html">HOME</a></li>
-                <li><a href="">GRP FILTERS</a></li>
-                <li><a href="">GALLERY</a></li>
+                <li><a href="" onclick="myFunction()">GRP FILTERS</a></li>
+                <li><a href="" onclick="myFunction()">GALLERY</a></li>
                 <li>
                   <a href="downloads.html" class="box-style">DOWNLOADS</a>
                 </li>
-                <li><a href="">ABOUT US</a></li>
-                <li><a href="">CONTACT</a></li>
+                <li><a href="" onclick="myFunction()">ABOUT US</a></li>
+                <li><a href="" onclick="myFunction()">CONTACT</a></li>
               </ul>
             </nav>
+          </div>
+          <span
+            class="nav-bar"
+            style="font-size: 30px; cursor: pointer"
+            onclick="openNav()"
+            >&#9776;</span
+          >
+          <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+              >&times;</a
+            >
+            <div class="overlay-content">
+              <a href="index.html">Home</a>
+              <a href="" onclick="myFunction()">GRP Filters</a>
+              <a href="" onclick="myFunction()">Gallery</a>
+              <a href="downloads.html">Downloads</a>
+              <a href="" onclick="myFunction()">About us</a>
+              <a href="" onclick="myFunction()">Contact</a>
+            </div>
           </div>
         </div>
         <h1 class="download-title">DOWNLOADS</h1>
@@ -43,18 +64,21 @@
                 You can download full A FILTER sales catalog for 2021
               </p>
               <a href="Kombinovani_katalog_web.pdf"
-                ><img src="img/download.svg"
+                ><img src="img/download.svg" class="downl-icon"
               /></a>
             </div>
           </div>
           <div class="catalogue-title-button-holder">
-            <img src="img/certificate_cover_2020.png" />
+            <img
+              src="img/certificate_cover_2020.png"
+              class="certificate-logo"
+            />
             <div class="title-button-catalogue">
               <p class="title-catalogue">
                 You can download A Filter Certificate
               </p>
               <a href="Certificate_Afilter_2020.pdf"
-                ><img src="img/download.svg"
+                ><img src="img/download.svg" class="downl-icon"
               /></a>
             </div>
           </div>
@@ -63,7 +87,7 @@
 
       <div class="footer">
         <div class="footer-left-part">
-          <img src="img/wemakefilters.svg" />
+          <img src="img/wemakefilters.svg" class="footer-icon" />
           <p class="footer-title">
             A FILTER is a subsidiary of ALEX E&C dedicated to development and
             manufacture of high<br />
@@ -89,11 +113,16 @@
             <p class="pr">LEGAL</p>
             <p class="pr-1">Terms of Use</p>
           </div>
-          <div class="product-footer">
+          <div class="product-footer copyright-last">
             <p class="pr-2">Copyright © Afilter 2020</p>
           </div>
         </div>
       </div>
+      <div class="copyright-mobile">
+        <p class="pr-3">Copyright © Afilter 2020</p>
+      </div>
     </div>
+    <script src="menu.js"></script>
+    <script src="alert.js"></script>
   </body>
 </html>

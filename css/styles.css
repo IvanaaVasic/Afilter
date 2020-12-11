@@ -166,7 +166,6 @@ nav a {
   margin: 0px 30px 0px 50px;
 }
 .footer {
-  height: 280px;
   background-color: #232323;
   display: flex;
   flex-direction: row;
@@ -234,6 +233,18 @@ nav a {
 }
 .footer-icon {
   height: 93px;
+}
+.nav-bar {
+  display: none;
+}
+.overlay {
+  display: none;
+}
+.copyright-last {
+  display: flex;
+}
+.copyright-mobile {
+  display: none;
 }
 @media only screen and (max-width: 1500px) and (min-width: 835px) {
   nav a {
@@ -318,7 +329,168 @@ nav a {
     font-size: 12px;
     margin-top: 24px;
   }
+}
+@media only screen and (max-width: 835px) {
+  .menu {
+    display: none;
+  }
+  .logo-main {
+    height: 60px;
+  }
+  .nav-bar {
+    display: flex;
+    position: absolute;
+    top: 1%;
+    left: 90%;
+    color: black;
+  }
+  .overlay {
+    display: flex;
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #0082c6;
+    overflow-y: hidden;
+    transition: 0.5s;
+    opacity: 0.8;
+  }
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 50px;
+  }
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 28px;
+    font-family: poppins-regular;
+    color: white;
+    display: block;
+    transition: 0.3s;
+  }
+  .overlay-content {
+    position: relative;
+    top: 20%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .title-image {
+    flex-direction: column;
+    align-items: center;
+  }
+  .main-title {
+    font-size: 36px;
+    position: relative;
+    left: 0px;
+    padding-top: 60px;
+  }
+  .render-img {
+    height: auto;
+    padding-top: 40px;
+    width: 300px;
+  }
+  .first-part {
+    display: flex;
+    background-image: url(../img/mobile_backgr_2.png);
+    height: 587px;
+    background-position: right;
+    flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+  }
+  .second-part {
+    background-image: url(../img/blue_smal_image.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    background-repeat: no-repeat;
+  }
+  .precision {
+    font-size: 28px;
+  }
+  .line {
+    width: 40px;
+  }
+  .premium {
+    font-size: 18px;
+  }
+  .third-part {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+  .worker {
+    padding-top: 20px;
+  }
+  .box-1 {
+    padding: 20px;
+  }
+  .we-are-different {
+    font-size: 28px;
+  }
+  .first-holder {
+    margin-top: 40px;
+  }
+  .last-in-box {
+    padding-bottom: 20px;
+  }
+  .icon-ajust {
+    margin: 0px 30px 0px 40px;
+  }
+  .box-text {
+    padding-right: 30px;
+  }
+  .footer-icon {
+    height: 50px;
+  }
+  .footer-title {
+    display: none;
+  }
   .footer {
-    height: 226px;
+    flex-direction: column;
+  }
+  .info {
+    flex-direction: column;
+    padding-top: 20px;
+  }
+  .info-style {
+    font-size: 14px;
+    border-right: none;
+    text-decoration: none;
+    margin: 10px 0px 0px 0px;
+  }
+  .footer-left-part {
+    padding-left: 20px;
+  }
+  .footer-right-part {
+    flex-direction: row;
+    padding-left: 20px;
+    justify-content: space-between;
+  }
+  .copyright-last {
+    display: none;
+  }
+  .pr {
+    font-size: 14px;
+  }
+  .product-footer {
+    padding-right: 20px;
+  }
+  .copyright-mobile {
+    display: flex;
+    background-color: #232323;
+    justify-content: center;
+  }
+  .pr-3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #a5a5a5;
   }
 }

@@ -355,7 +355,7 @@ nav a {
     background-color: #0082c6;
     overflow-y: hidden;
     transition: 0.5s;
-    opacity: 0.9;
+    opacity: 0.9d;
   }
   .overlay .closebtn {
     position: absolute;
@@ -495,5 +495,9 @@ nav a {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     color: #a5a5a5;
+  }
+  .box-size {
+    flex: none;
+    height: auto;
   }
 }

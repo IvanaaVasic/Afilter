@@ -28,7 +28,7 @@ body {
   display: flex;
   background-image: url("../img/Composit-2.jpg");
   height: 700px;
-  background-position-x: -300px;
+  background-position: right;
   flex-direction: column;
 }
 .header {
@@ -231,4 +231,94 @@ nav a {
   font-size: 14px;
   color: #a5a5a5;
   margin-top: 30px;
+}
+.footer-icon {
+  height: 93px;
+}
+@media only screen and (max-width: 1500px) and (min-width: 835px) {
+  nav a {
+    font-size: 14px;
+  }
+  .logo-main {
+    height: 80px;
+  }
+  .main-title {
+    font-size: 48px;
+    padding-top: 80px;
+  }
+  .render-img {
+    height: 400px;
+    padding-top: 32px;
+  }
+  .first-part {
+    height: 560px;
+  }
+  .second-part {
+    height: 200px;
+  }
+  .worker {
+    height: 157px;
+  }
+  .precision {
+    font-size: 28px;
+  }
+  .premium {
+    font-size: 22px;
+  }
+  .line {
+    width: 48px;
+  }
+  .third-part {
+    height: 370px;
+  }
+  .box-size {
+    height: 370px;
+  }
+  .we-are-different {
+    font-size: 28px;
+  }
+  .icon-ajust {
+    width: 28px;
+  }
+  .box-title {
+    font-size: 14px;
+  }
+  .box-text {
+    font-size: 12px;
+  }
+  .first-holder {
+    margin-top: 56px;
+  }
+  .footer-icon {
+    height: 75px;
+  }
+  .footer-title {
+    font-size: 12px;
+    padding-bottom: 40px;
+  }
+  .info-style {
+    font-size: 12px;
+    margin-right: 8px;
+    padding-right: 8px;
+  }
+  .info-style-last {
+    font-size: 12px;
+    margin-right: 8px;
+    padding-right: 8px;
+  }
+  .pr {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+  .pr-1 {
+    font-size: 12px;
+    margin: 3px;
+  }
+  .pr-2 {
+    font-size: 12px;
+    margin-top: 24px;
+  }
+  .footer {
+    height: 226px;
+  }
 }

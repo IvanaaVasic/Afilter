@@ -1,0 +1,36 @@
+.first-part-downloads {
+  display: flex;
+  background-color: white;
+  height: 725px;
+  flex-direction: column;
+}
+.download-title {
+  font-family: poppins-medium;
+  font-size: 36px;
+  color: #1a1a1a;
+  font-weight: normal;
+  padding: 80px 0px 50px 130px;
+}
+.catalogue-title-button-holder {
+  display: flex;
+  flex-direction: row;
+}
+.title-button-catalogue {
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+  align-items: center;
+}
+.title-catalogue {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #777777;
+}
+.downloads-content-holder {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.catalogue-logo {
+  border: 1px solid black;
+}

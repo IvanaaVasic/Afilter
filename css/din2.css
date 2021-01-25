@@ -11,8 +11,28 @@
 .din-detail {
   height: 400px;
 }
-.din-image{
-    width: auto;
-    height: fit-content;
+.din-image {
+  width: auto;
+  height: fit-content;
 }
+@media only screen and (max-width: 1500px) and (min-width: 835px) {
+  .din-table {
+    width: 600px;
+  }
+  .din-detail {
+    height: 320px;
+  }
+}
+@media only screen and (max-width: 835px) {
+  .tabs-holder {
+    flex-direction: column;
+    height: auto;
+  }
+  .din-table {
+    width: 350px;
+  }
+  .din-detail {
+    height: auto;
+    width: 350px;
+  }
 }

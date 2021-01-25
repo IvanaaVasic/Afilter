@@ -60,24 +60,30 @@ body {
   z-index: 1;
 }
 
-@media screen and (max-width: 700px) {
+@media only screen and (max-width: 835px) {
   .tabbed {
-    width: 400px;
+    width: 360px;
   }
   .tabbed > label {
     display: none;
   }
   .tabs > div {
-    width: 400px;
+    width: 350px;
     border: none;
-    padding: 0;
+    padding: 0px 0px 0px 10px;
     opacity: 1;
     position: relative;
     transform: none;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
   }
   .tabs > div h2 {
     border-bottom: 2px solid #0082c6;
     padding-bottom: 0.5em;
+  }
+}
+
+@media only screen and (max-width: 1500px) and (min-width: 835px) {
+  .tabs > div {
+    width: 650px;
   }
 }

@@ -1,0 +1,18 @@
+.tabs-holder {
+  display: flex;
+  flex-direction: row;
+  height: 600px;
+  justify-content: space-evenly;
+  padding-bottom: 50px;
+}
+.din-table {
+  width: 700px;
+}
+.din-detail {
+  height: 400px;
+}
+.din-image{
+    width: auto;
+    height: fit-content;
+}
+}

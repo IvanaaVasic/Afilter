@@ -246,6 +246,9 @@ nav a {
 .copyright-mobile {
   display: none;
 }
+.footer-link {
+  text-decoration: none;
+}
 @media only screen and (max-width: 1500px) and (min-width: 835px) {
   nav a {
     font-size: 14px;

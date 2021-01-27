@@ -15,12 +15,30 @@
   width: auto;
   height: fit-content;
 }
+.din-dimension {
+  height: 440px;
+}
+.seria1-dimension {
+  height: 440px;
+}
+.seria3-dimension {
+  height: 310px;
+}
 @media only screen and (max-width: 1500px) and (min-width: 835px) {
   .din-table {
     width: 600px;
   }
   .din-detail {
     height: 320px;
+  }
+  .din-dimension {
+    height: 430px;
+  }
+  .seria1-dimension {
+    height: 380px;
+  }
+  .seria3-dimension {
+    height: 260px;
   }
 }
 @media only screen and (max-width: 835px) {
@@ -32,6 +50,18 @@
     width: 350px;
   }
   .din-detail {
+    height: auto;
+    width: 350px;
+  }
+  .din-dimension {
+    height: auto;
+    width: 350px;
+  }
+  .seria1-dimension {
+    height: auto;
+    width: 350px;
+  }
+  .seria3-dimension {
     height: auto;
     width: 350px;
   }
